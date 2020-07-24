@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using WebApi_Data.Entities;
+﻿using WebApi_Data.Entities;
 
 namespace WebApi_Data.Interface
 {

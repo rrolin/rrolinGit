@@ -22,14 +22,14 @@ namespace WebApi.Controllers
 
         // GET: jobs/
         [HttpGet]
-        public List<Job> Get()
+        public object Get()
         {
             return _iCore.GetJobs();
         }
 
         // GET: jobs/id
         [HttpGet("{id}")]
-        public List<Job> Get(int jobId)
+        public object Get(int jobId)
         {
             return _iCore.GetJobs(jobId);
         }

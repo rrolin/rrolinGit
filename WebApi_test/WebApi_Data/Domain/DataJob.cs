@@ -148,6 +148,9 @@ namespace WebApi_Data.Domain
 
         public Result DeleteJob(int jobId = 0)
         {
+            Result result = new Result();
+            int affectedRows = default;
+
             using (SqlConnection connection = new SqlConnection(_iConfig["Connection"]))
             {
                 try
@@ -156,22 +159,31 @@ namespace WebApi_Data.Domain
                     using (SqlCommand command = new SqlCommand("DELETE FROM Jobs WHERE JobId = @JobId", connection))
                     {
                         command.Parameters.Add(new SqlParameter("JobId", jobId));
-                        command.ExecuteNonQuery();
+                        affectedRows = command.ExecuteNonQuery();
                     }
+
+                    result = new Result()
+                    {
+                        StatusCode = 200,
+                        StatusDescription = $"{affectedRows} rows affected"
+                    };
                 }
                 catch(Exception ex)
                 {
-
+                    result = new Result()
+                    {
+                        StatusCode = 500,
+                        StatusDescription = ex.Message
+                    };
                 }
                 finally
                 {
                     connection.Close();
                 }
-                
             }
             
-
-            return null;
+            // Return result with status detail
+            return result;
         }
     }
 }

@@ -1,8 +1,9 @@
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\bin\Debug\netcoreapp3.1\WebApi_Data.deps.json
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\bin\Debug\netcoreapp3.1\WebApi_Data.dll
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\bin\Debug\netcoreapp3.1\WebApi_Data.pdb
 C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\obj\Debug\netcoreapp3.1\WebApi_Data.csprojAssemblyReference.cache
 C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\obj\Debug\netcoreapp3.1\WebApi_Data.AssemblyInfoInputs.cache
 C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\obj\Debug\netcoreapp3.1\WebApi_Data.AssemblyInfo.cs
-C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\bin\Debug\netcoreapp3.1\WebApi_Data.exe
-C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\obj\Debug\netcoreapp3.1\WebApi_Data.csproj.CopyComplete
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\obj\Debug\netcoreapp3.1\WebApi_Data.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\obj\Debug\netcoreapp3.1\WebApi_Data.dll
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Data\obj\Debug\netcoreapp3.1\WebApi_Data.pdb

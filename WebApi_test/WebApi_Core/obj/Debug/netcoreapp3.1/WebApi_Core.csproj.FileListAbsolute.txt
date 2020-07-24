@@ -1,0 +1,12 @@
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\bin\Debug\netcoreapp3.1\WebApi_Core.deps.json
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\bin\Debug\netcoreapp3.1\WebApi_Core.dll
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\bin\Debug\netcoreapp3.1\WebApi_Core.pdb
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\bin\Debug\netcoreapp3.1\WebApi_Data.dll
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\bin\Debug\netcoreapp3.1\WebApi_Data.pdb
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\obj\Debug\netcoreapp3.1\WebApi_Core.csprojAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\obj\Debug\netcoreapp3.1\WebApi_Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\obj\Debug\netcoreapp3.1\WebApi_Core.AssemblyInfo.cs
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\obj\Debug\netcoreapp3.1\WebApi_Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\obj\Debug\netcoreapp3.1\WebApi_Core.csproj.CopyComplete
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\obj\Debug\netcoreapp3.1\WebApi_Core.dll
+C:\Users\Administrator\Source\Repos\WebApi_test\WebApi_Core\obj\Debug\netcoreapp3.1\WebApi_Core.pdb

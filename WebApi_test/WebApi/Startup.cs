@@ -26,7 +26,7 @@ namespace WebApi
             // Add dependency injection
             services.AddScoped<ICoreJob, CoreJob>();
             services.AddScoped<IDataJob, DataJob>();
-            services.AddSingleton<IConfiguration>(Configuration);
+            services.AddSingleton(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

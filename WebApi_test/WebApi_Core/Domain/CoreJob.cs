@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using WebApi_Core.Extension;
 using WebApi_Core.Interfaces;
 using WebApi_Data.Entities;
 using WebApi_Data.Interface;
@@ -16,19 +15,27 @@ namespace WebApi_Core.Domain
             _iDataJob = iDataJob;
         }
 
-        public List<Job> GetJobs(int jobId = 0)
+        public object GetJobs(int jobId = 0)
         {
-            return null;
+            return _iDataJob.GetJobs(jobId);
         }
 
         public Result NewJob(Job newJob, int jobId = 0)
         {
-            return null;
+            // Validate if both dates required are valid
+            // If they are not, then are replaced with current date and time.
+            if (!newJob.CreatedAt.isValidDate())
+                newJob.CreatedAt = DateTime.Now.ToString();
+
+            if (!newJob.ExpiresAt.isValidDate())
+                newJob.ExpiresAt = DateTime.Now.ToString();
+
+            return _iDataJob.InsertEditJob(newJob, jobId);
         }
 
         public Result DeleteJob(int jobId = 0)
         {
-            return null;
+            return _iDataJob.DeleteJob(jobId);
         }
     }
 }

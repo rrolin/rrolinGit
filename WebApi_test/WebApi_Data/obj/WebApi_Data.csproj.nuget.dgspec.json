@@ -44,7 +44,7 @@
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.1, )"
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
