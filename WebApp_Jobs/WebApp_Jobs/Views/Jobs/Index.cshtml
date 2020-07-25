@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebApp_Jobs.Models.Job>
+
+@{
+    ViewBag.Title = "List current jobs";
+}
+
+<h2>Existing Jobs</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class="btn btn-primary" })
+</p>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.JobTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExpiresAt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.JobTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.JobDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedAt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpiresAt)
+        </td>
+        <td>
+            @Html.ActionLink("More", "Details", new { id = item.Job1 }, new { @class = "btn btn-info" })
+            @Html.ActionLink("Edit", "Edit", new { id = item.Job1 }, new { @class = "bnt btn-primary" })
+            @Html.ActionLink("Delete", "Delete", new { id = item.Job1 }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>
